@@ -4,6 +4,12 @@
 .firstimg{
     width: 270px;
     height: 75px;
+    animation:example 1.5s ease-in-out;
+    
+}
+.firstimg:hover{
+    transform:scale(1.2);
+    transition: .6s;
 }
 .rodape{
         border-top: 0.4px solid #ccccd5;
@@ -46,16 +52,18 @@ header{
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 250px;
+    gap: 100px;
+    
 }
 .cabecalho-item{
     font-family: 'sarala', sans-serif;
     font-weight: 400;
     font-size: 18px;
-    color: #ccccd5;
+    color: rgb(99, 28, 134);
+    border-style: outset purple 5px;
 }
 .cabecalho-item:hover{
-    background-color:#9C9CA4;
+    background-color:rgb(99, 28, 134);
 }
 .conteudo{
     margin-bottom: 50x;
@@ -77,8 +85,8 @@ header{
     gap: 24px;
     margin-top: 50px;
     margin-bottom: 25px;
-    margin-left:700px;
-    margin-right:700px
+    margin-left:650px;
+    margin-right:650px
 }
 .title{
     padding-top:25px;
@@ -100,9 +108,10 @@ header{
     border-bottom-right-radius: 5rem;
     border: 3px solid purple;
     max-width:320px;
-    max-height:260x;
+    max-height:260px;
     width: auto;
     height: auto;
+    animation:example 1.5s ease-in-out;
 
 }
 .profile2{
@@ -110,9 +119,10 @@ header{
     border-bottom-left-radius: 5rem;
     border: 3px solid purple;
     max-width:320px;
-    max-height:260x;
+    max-height:260px;
     width: auto;
     height: auto;
+    animation:example 1.5s ease-in-out;
 
 }
 
@@ -147,4 +157,9 @@ header{
     max-height:85px;
     width: auto;
     height: auto;
+}
+@keyframes example {
+    50%{
+        transform: translateY(-10%)
+    }
 }
