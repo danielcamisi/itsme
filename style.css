@@ -1,0 +1,150 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Sarala&display=swap');
+
+.firstimg{
+    width: 270px;
+    height: 75px;
+}
+.rodape{
+        border-top: 0.4px solid #ccccd5;
+        padding: 32px;
+        background-image: url("./headerback.png");
+}
+.rodape-img{
+    display: block;
+    margin:0 auto;
+    flex-direction:column;
+}
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    font-size:100%;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-image: url("./fundo.png")
+    
+}
+header{
+    width: 100%;
+    height: 100%;
+    background-repeat: repeat;
+    background-image:url("./headerback.png")
+
+}
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 16px;
+}
+.cabecalho-menu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 250px;
+}
+.cabecalho-item{
+    font-family: 'sarala', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #ccccd5;
+}
+.cabecalho-item:hover{
+    background-color:#9C9CA4;
+}
+.conteudo{
+    margin-bottom: 50x;
+    border-top: 0.4px solid #ccccd5;
+}
+.conteudo-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 50px;
+    margin-bottom: 50px;
+}
+.conteudo-second{
+    display:flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 24px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    margin-left:700px;
+    margin-right:700px
+}
+.title{
+    padding-top:25px;
+    border-top: 0.4px solid #ccccd5;
+    font-family: 'sarala', sans-serif ;
+    font-weight: 400;
+    font-size: 24px;
+    color: #ccccd5;
+    margin-bottom: 16px;
+}
+.title-second{
+    font-family: 'sarala', sans-serif ;
+    font-weight: 400;
+    font-size: 18px;
+    color: #ccccd5;
+}
+.profile{
+    border-top-left-radius: 5rem;
+    border-bottom-right-radius: 5rem;
+    border: 3px solid purple;
+    max-width:320px;
+    max-height:260x;
+    width: auto;
+    height: auto;
+
+}
+.profile2{
+    border-top-right-radius: 5rem;
+    border-bottom-left-radius: 5rem;
+    border: 3px solid purple;
+    max-width:320px;
+    max-height:260x;
+    width: auto;
+    height: auto;
+
+}
+
+.text{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 16px;
+    margin-bottom: 15px;
+    margin-left: 450px;
+    margin-right: 450px;
+}
+.git{
+    flex-direction: row;
+    max-width:50px;
+    max-height:50px;
+    width: auto;
+    height: auto;   
+}
+.gitmain{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 650px;
+    margin-left: 650px;
+}
+.insta{
+    flex-direction: row;
+    max-width:85px;
+    max-height:85px;
+    width: auto;
+    height: auto;
+}
